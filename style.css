@@ -1,0 +1,101 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornsilk;
+    padding: 20px;
+    font-color: green
+}
+
+.header h1 {
+    font-family: fantasy;
+    font-size: large;
+
+
+}
+
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header li {
+    border: 1px solid rgb(27, 121, 27);
+    padding: 10px;
+}
+
+header li:hover {
+    background-color: azure;
+}
+
+header a {
+    text-decoration: none;
+}
+
+main {
+    background-image: url(./bilder/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero {
+    background-image: url("./bilder/download\ \(2\).jpg") background-size: cover;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.hero h1 {
+    color: rgba(11, 74, 119, 0.849);
+    font-size: 60px;
+    width: 600px;
+    font-style: 𝒽𝑒𝓇𝓏𝓁𝒾𝒸𝒽 𝓌𝒾𝓁𝓁𝓀𝑜𝓂𝓂𝑒𝓃 𝒾𝓃 𝒾𝓇𝒶𝓃;
+    text-align: center;
+
+
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    background-color: gold;
+    color: aqua;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px 2px, rgba(0, 0, 0, 0.3)0px 3px 7px 3px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    background-color: rgba(225, 225, 225, 0.932);
+}
+
+.card:hover {
+    background-color: bisque;
+}
+
+.ticket {
+    text-align: start;
+    padding: 5px;
+
+}
+
+h2.kind {
+    color: black;
+}
+
+.Rabbat {
+    width: 200px;
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+    left: 30px;
+}
